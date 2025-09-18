@@ -46,11 +46,11 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-black/20" />
         </div>
         
-        <div className="relative z-10 flex h-full items-center justify-center text-center text-white px-4 pt-20 pb-20">
+        <div className="relative z-10 flex h-full items-center justify-center text-center text-white px-4 pt-24 pb-20">
           <div className="max-w-4xl mx-auto">
             <div className="mb-6 fade-in-up">
               <div className="floating">
-                <div className="w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white/30 shadow-2xl pulse-glow">
+                <div className="w-32 h-32 sm:w-48 sm:h-48 mx-auto mb-4 rounded-full overflow-hidden border-4 border-white/30 shadow-2xl pulse-glow">
                   <Image
                     src="/logo.jpg"
                     alt="Tunnel Corner Cottage Logo"
@@ -206,12 +206,12 @@ export default function Home() {
       <section id="rooms" className="py-24 px-4 bg-gradient-to-br from-emerald-50 via-teal-25 to-emerald-100 relative">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-20">
-            <h2 className="font-serif text-5xl md:text-6xl font-bold text-emerald-800 mb-8">
+            <h2 className="font-serif text-5xl md:text-6xl font-bold text-emerald-800 mb-8 leading-tight tracking-normal">
               <HomeIcon className="inline w-8 h-8 mr-3 text-emerald-600" />
               Luxury Accommodations
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-emerald-500 to-teal-500 mx-auto mb-8 rounded-full"></div>
-            <p className="text-xl text-gray-600">
+            <p className="text-xl text-gray-600 leading-relaxed tracking-normal">
               Comfort and elegance in every corner of your forest retreat
             </p>
           </div>
